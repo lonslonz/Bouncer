@@ -116,8 +116,6 @@
 			children = (
 				7559669E199086FE001C62D2 /* BouncerAppDelegate.h */,
 				7559669F199086FE001C62D2 /* BouncerAppDelegate.m */,
-				755966A1199086FE001C62D2 /* Main_iPhone.storyboard */,
-				755966A4199086FE001C62D2 /* Main_iPad.storyboard */,
 				755966A7199086FE001C62D2 /* BouncerViewController.h */,
 				755966A8199086FE001C62D2 /* BouncerViewController.m */,
 				755966AA199086FE001C62D2 /* Images.xcassets */,
@@ -129,6 +127,8 @@
 		75596696199086FE001C62D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				755966A1199086FE001C62D2 /* Main_iPhone.storyboard */,
+				755966A4199086FE001C62D2 /* Main_iPad.storyboard */,
 				75596697199086FE001C62D2 /* Bouncer-Info.plist */,
 				75596698199086FE001C62D2 /* InfoPlist.strings */,
 				7559669B199086FE001C62D2 /* main.m */,
