@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3B8369B1-0C75-4D30-8DA0-B749D3FA941C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bouncer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>39C64879-973A-4F2F-85B5-897BE28896FD</key>
+		<string>https://github.com/lonslonz/Bouncer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bouncer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>39C64879-973A-4F2F-85B5-897BE28896FD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lonslonz/Bouncer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>39C64879-973A-4F2F-85B5-897BE28896FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>39C64879-973A-4F2F-85B5-897BE28896FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bouncer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

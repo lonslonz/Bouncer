@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7505CE7019949C5D00C65356 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7505CE6F19949C5D00C65356 /* CoreMotion.framework */; };
 		75596690199086FE001C62D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7559668F199086FE001C62D2 /* Foundation.framework */; };
 		75596692199086FE001C62D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75596691199086FE001C62D2 /* CoreGraphics.framework */; };
 		75596694199086FE001C62D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75596693199086FE001C62D2 /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 		755966B4199086FE001C62D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75596693199086FE001C62D2 /* UIKit.framework */; };
 		755966BC199086FE001C62D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 755966BA199086FE001C62D2 /* InfoPlist.strings */; };
 		755966BE199086FE001C62D2 /* BouncerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 755966BD199086FE001C62D2 /* BouncerTests.m */; };
+		75BDB902199875A600E92376 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75BDB901199875A500E92376 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7505CE6F19949C5D00C65356 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		7559668C199086FE001C62D2 /* Bouncer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bouncer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7559668F199086FE001C62D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75596691199086FE001C62D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +58,7 @@
 		755966B9199086FE001C62D2 /* BouncerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BouncerTests-Info.plist"; sourceTree = "<group>"; };
 		755966BB199086FE001C62D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		755966BD199086FE001C62D2 /* BouncerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncerTests.m; sourceTree = "<group>"; };
+		75BDB901199875A500E92376 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7505CE7019949C5D00C65356 /* CoreMotion.framework in Frameworks */,
 				75596692199086FE001C62D2 /* CoreGraphics.framework in Frameworks */,
 				75596694199086FE001C62D2 /* UIKit.framework in Frameworks */,
 				75596690199086FE001C62D2 /* Foundation.framework in Frameworks */,
@@ -84,6 +89,7 @@
 		75596683199086FE001C62D2 = {
 			isa = PBXGroup;
 			children = (
+				75BDB901199875A500E92376 /* Settings.bundle */,
 				75596695199086FE001C62D2 /* Bouncer */,
 				755966B7199086FE001C62D2 /* BouncerTests */,
 				7559668E199086FE001C62D2 /* Frameworks */,
@@ -103,6 +109,7 @@
 		7559668E199086FE001C62D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7505CE6F19949C5D00C65356 /* CoreMotion.framework */,
 				7559668F199086FE001C62D2 /* Foundation.framework */,
 				75596691199086FE001C62D2 /* CoreGraphics.framework */,
 				75596693199086FE001C62D2 /* UIKit.framework */,
@@ -234,6 +241,7 @@
 			files = (
 				755966A6199086FE001C62D2 /* Main_iPad.storyboard in Resources */,
 				755966AB199086FE001C62D2 /* Images.xcassets in Resources */,
+				75BDB902199875A600E92376 /* Settings.bundle in Resources */,
 				755966A3199086FE001C62D2 /* Main_iPhone.storyboard in Resources */,
 				7559669A199086FE001C62D2 /* InfoPlist.strings in Resources */,
 			);
@@ -471,6 +479,7 @@
 				755966C3199086FE001C62D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		755966C4199086FE001C62D2 /* Build configuration list for PBXNativeTarget "BouncerTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +488,7 @@
 				755966C6199086FE001C62D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
